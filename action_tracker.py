@@ -26,8 +26,8 @@ selected_country = st.sidebar.selectbox("Counry", country_list)
 
 df_country = df[df["Country"] == selected_country]
 
-st.write(df_country)
+# st.write(df_country)
 # st.table(df_country)
-st.dataframe(df_country, width=700, height=300)
+st.dataframe(df_country, width=900, height=2000)
 
 
