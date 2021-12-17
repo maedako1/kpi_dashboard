@@ -42,7 +42,8 @@ fig = go.Figure(data=[go.Table(
 )])
 
 # st.write(df)
-st.table(df_country)
-fig.show()
+# st.table(df_country)
+# fig.show()
 
 
+st.plotly_chart(fig)
